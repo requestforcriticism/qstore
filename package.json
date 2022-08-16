@@ -1,24 +1,28 @@
 {
-  "name": "@rfcrit/qstore",
-  "version": "0.0.0",
-  "description": "A method of interacting with .querystore files",
-  "main": "QueryStore.js",
-  "scripts": {
-    "test": "mocha test"
-  },
-  "bin": {
-    "qstore": "./qstore-cli.js"
-  },
-  "keywords": [
-    "frame",
-    "sqlite3",
-    "querystore"
-  ],
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "commander": "^9.4.0",
-    "csv-parse": "^5.3.0",
-    "sqlite3": "^5.0.11"
-  }
+	"name": "@rfcrit/qstore",
+	"version": "0.0.0",
+	"description": "A method of interacting with .querystore files",
+	"main": "QueryStore.js",
+	"scripts": {
+		"test": "mocha test"
+	},
+	"bin": {
+		"qstore": "./qstore-cli.js"
+	},
+	"keywords": [
+		"frame",
+		"sqlite3",
+		"querystore"
+	],
+	"author": "RFC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/requestforcriticism/qstore.git"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"commander": "^9.4.0",
+		"csv-parse": "^5.3.0",
+		"sqlite3": "^5.0.11"
+	}
 }

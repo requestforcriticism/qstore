@@ -2,7 +2,7 @@
   "name": "@rfcrit/qstore",
   "version": "0.0.0",
   "description": "A method of interacting with .querystore files",
-  "main": "index.js",
+  "main": "QueryStore.js",
   "scripts": {
     "test": "mocha test"
   },

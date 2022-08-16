@@ -1,0 +1,26 @@
+
+/*
+ * @name createPersonTable
+ * @description create a person table
+ * @returns none
+ */
+
+CREATE TABLE Person (
+	person_id INTEGER PRIMARY KEY,
+	last_name TEXT NOT NULL,
+	first_name TEXT NOT NULL,
+	age TEXT,
+	job TEXT 
+);
+
+/*
+ * @name insertPerson
+ * @description insert a person into the Person table
+ * @parameter userName : a username
+ * @parameter password : a password
+ * @parameter password : a password
+ * @parameter password : a password
+ * @returns none
+ */
+INSERT INTO Person (last_name, first_name, age, job)
+VALUES( ?, ?, ?, ?);

@@ -1,0 +1,39 @@
+
+/*
+ * @name createUserTable
+ * @description create a user table
+ * @returns none
+ */
+
+CREATE TABLE Users (
+	userid INTEGER PRIMARY KEY,
+	username TEXT NOT NULL UNIQUE,
+	password TEXT NOT NULL,
+	email TEXT UNIQUE,
+	permissions TEXT DEFAULT ""
+);
+
+/*
+ * @name insertUser
+ * @description insert a user into the Users table
+ * @parameter userName : a username
+ * @parameter password : a password
+ * @returns none
+ */
+INSERT INTO Users (username,password)
+VALUES( ?,	?);
+
+ /*
+ * @name listUsers
+ * @description get a list of all the users on the db
+ * @returns list of users
+ */
+ SELECT * FROM Users;
+
+/*
+ * @name doubbleUsers
+ * @description get a list of all the users on the db
+ * @returns list of users
+ */
+SELECT * FROM Users;
+SELECT * FROM Users;

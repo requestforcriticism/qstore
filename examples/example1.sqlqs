@@ -1,0 +1,26 @@
+/*
+ * This is a simple query
+ * @name AN EXAMPLE
+ * @description Does Stuff
+ * @parameter arg : lool
+ * @returns some shit
+ */
+
+Here Be some sql text regardless if it 
+was a good idea to have them here as
+plain text but it will go ahead and
+copy it into the file
+
+/*
+ * This is a simple query
+ */
+
+Here Be some sql text regardless if it 
+was a good idea to have them here as
+plain text but it will go ahead and
+copy it into the file
+
+
+
+
+Something is here
